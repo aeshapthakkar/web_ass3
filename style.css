@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 25px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+  }
+
+  nav a:hover {
+    background-color: #ffffff;
+  }
+
+  .profile-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .my_IMAGE {
+      height: 100px;
+      width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .profile-info {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table tr:nth-child(even) {
+background-color: #edd9e9; /* Light gray background for even rows */
+}
+
+table tr:nth-child(odd) {
+background-color: #e7bdd8; /* white background for odd rows */
+}
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .bio {
+    margin-top: 20px;
+  }
+
+  .bio h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .bio p {
+    line-height: 1.8;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+  }
